@@ -1,0 +1,21 @@
+body {
+    background-image: url("../img/cubes.png");
+    background-size: contain;
+}
+
+#results {
+    display: none;
+}
+
+input, label {
+    line-height: 1em;
+}
+
+.question1 {
+    background-color: yellow;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 2rem;
+}
