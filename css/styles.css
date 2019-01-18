@@ -10,12 +10,12 @@ body {
 input, label {
     line-height: 1em;
 }
-
-.question1 {
-    background-color: yellow;
-}
-
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
     padding: 2rem;
+}
+
+#anchor {
+    display: block;
+    padding-top: 15px;
 }

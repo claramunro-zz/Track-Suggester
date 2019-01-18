@@ -19,7 +19,7 @@
 
             <div class="col-12">
                 <h1>Track Suggester</h1>
-                <p id="width">The most important thing is to get the basic principles of coding down, practice a lot,
+                <p>The most important thing is to get the basic principles of coding down, practice a lot,
                     and be ready to change to another language when your job inevitably does.</p>
             </div>
 
@@ -44,12 +44,12 @@
                                 <p><em>Does this appeal to you?</em></p>
                                 <div class="radio">
                                     <label>
-                                        <input type="radio" name="design" value="yes" required> Yes, I enjoy design.</label>
+                                        <input type="radio" name="question1" value="yes" required> Yes, I enjoy design.</label>
                                 </div>
 
                                 <div class="radio">
                                     <label>
-                                        <input type="radio" name="design" value="no"> No, I don't enjoy design.</label>
+                                        <input type="radio" name="question1" value="no"> No, I don't enjoy design.</label>
                                 </div>
                             </div>
 
@@ -68,12 +68,12 @@
                                 <p><em>Question 2</em></p>
                                 <div class="radio">
                                     <label>
-                                        <input type="radio" name="facebook" value="yes" required> Option One</label>
+                                        <input type="radio" name="question2" value="yes" required> Option One</label>
                                 </div>
 
                                 <div class="radio">
                                     <label>
-                                        <input type="radio" name="facebook" value="no"> Option Two</label>
+                                        <input type="radio" name="question2" value="no"> Option Two</label>
                                 </div>
                             </div>
 
@@ -91,12 +91,12 @@
                                 <p><em>Question 3</em></p>
                                 <div class="radio">
                                     <label>
-                                        <input type="radio" name="tech" value="yes" required> Option One</label>
+                                        <input type="radio" name="question3" value="yes" required> Option One</label>
                                 </div>
 
                                 <div class="radio">
                                     <label>
-                                        <input type="radio" name="tech" value="no"> Option Two</label>
+                                        <input type="radio" name="question3" value="no"> Option Two</label>
                                 </div>
                             </div>
 
@@ -121,12 +121,12 @@
                                 <p><em>Question 4</em></p>
                                 <div class="radio">
                                     <label>
-                                        <input type="radio" name="fun" value="yes" required> Option One</label>
+                                        <input type="radio" name="question4" value="yes" required> Option One</label>
                                 </div>
 
                                 <div class="radio">
                                     <label>
-                                        <input type="radio" name="fun" value="no"> Option Two</label>
+                                        <input type="radio" name="question4" value="no"> Option Two</label>
                                 </div>
                             </div>
 
@@ -144,12 +144,12 @@
                                 <p><em>Question 5</em></p>
                                 <div class="radio">
                                     <label>
-                                        <input type="radio" name="less-popular" value="yes" required> Option One</label>
+                                        <input type="radio" name="question5" value="yes" required> Option One</label>
                                 </div>
 
                                 <div class="radio">
                                     <label>
-                                        <input type="radio" name="less-popular" value="no"> Option Two</label>
+                                        <input type="radio" name="question5" value="no"> Option Two</label>
                                 </div>
                             </div>
 
@@ -170,12 +170,12 @@
                                 <p><em>Question 6</em></p>
                                 <div class="radio">
                                     <label>
-                                        <input type="radio" name="javascript" value="yes" required> Option One</label>
+                                        <input type="radio" name="question6" value="yes" required> Option One</label>
                                 </div>
 
                                 <div class="radio">
                                     <label>
-                                        <input type="radio" name="javascript" value="no"> Option Two</label>
+                                        <input type="radio" name="question6" value="no"> Option Two</label>
                                 </div>
                             </div>
 
@@ -190,15 +190,18 @@
 
         <div class="col-md-12 text-center">
             <button type="submit" id="submitBtn" class="btn btn-primary">Help Me Decide</button>
+            <a id="anchor" href="#answer-anchor">Show me my results!</a>
+            <a name="results2"></a>
         </div>
     </form>
 
     <!--- Results -->
     <div class="container-fluid padding" id="results">
+            <a name="answer-anchor"></a>
         <div class="row padding text-center">
 
             <div class="col-md-12">
-                <h1>You Should Study <span id="answer"></span></h1>
+                <h1>You Should Study... <span id="answer"></span></h1>
             </div>
 
         </div>
