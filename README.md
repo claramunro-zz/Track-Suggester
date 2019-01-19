@@ -10,6 +10,8 @@
 
 This one page site askes you a series of questions, some serious-- some fun, to help you determine which coding track you should consider focusing on.
 
+* gibhub pages: https://claramunro.github.io/wk2-p-track-suggester/
+
 ## Setup/Installation Requirements
 
 * git **clone** https://github.com/claramunro/wk2-p-track-suggester
